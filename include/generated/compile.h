@@ -1,7 +1,7 @@
-/* This file is auto generated, version 1 */
+/* This file is auto generated, version 3 */
 /*  PREEMPT */
 #define UTS_MACHINE "arm"
-#define UTS_VERSION "#1 PREEMPT Thu Apr 20 23:58:50 WIB 2017"
-#define LINUX_COMPILE_BY "cakl"
-#define LINUX_COMPILE_HOST "cakl-OEM"
-#define LINUX_COMPILER "gcc version 4.7 (GCC) "
+#define UTS_VERSION "#3 PREEMPT Fri Apr 28 17:30:34 WIB 2017"
+#define LINUX_COMPILE_BY "wulan17"
+#define LINUX_COMPILE_HOST "linuxmint-kde"
+#define LINUX_COMPILER "gcc version 4.9.4 20160401 (optimized) (UBERTC-4.9.4) "
