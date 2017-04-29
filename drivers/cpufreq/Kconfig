@@ -14,6 +14,24 @@ config CPU_FREQ
 	  For details, take a look at <file:Documentation/cpu-freq>.
 
 	  If in doubt, say N.
+choice
+	prompt "Choose Normal/Overclock"
+	default CPU_FREQ_LEGACY
+	depends on CPU_FREQ
+	help
+	  This option allows to select a Normal/Overclock CPU Frequency.
+config CPU_FREQ_LEGACY
+	bool "Normal CPU Freq"
+	depends on CPU_FREQ
+	help
+	This is a Normal CPU Frequency.
+
+config CPU_FREQ_OC
+	bool "Overclock CPU Freq"
+	depends on CPU_FREQ
+	help
+	This is a Overclocked CPU Frequency.
+endchoice
 
 if CPU_FREQ
 

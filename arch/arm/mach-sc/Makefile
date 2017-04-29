@@ -11,7 +11,8 @@ obj-$(CONFIG_PM_DEVFREQ) += dmc_freq.o
 
 obj-$(CONFIG_PM) += pm.o
 obj-$(CONFIG_FIX_V7TAGRAM_BUG) += fix_v7_tag_ram_bug.o
-obj-$(CONFIG_CPU_FREQ) += cpufreq-scx35.o
+obj-$(CONFIG_CPU_FREQ_LEGACY) += cpufreq-scx35.o
+obj-$(CONFIG_CPU_FREQ_OC) += cpufreq-scx35-oc.o
 ifeq ($(CONFIG_BUS_MONITOR),y)
 obj-$(CONFIG_ARCH_SCX35) += bm_sc8830.o
 endif
